@@ -4,7 +4,8 @@ function App() {
 
   return (
     <>
-      <p className="">Hello</p>
+      <p className="text-4xl font-bold
+      font-signature">Hello</p>
     </>
   )
 }
