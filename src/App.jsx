@@ -1,11 +1,11 @@
 import './App.css'
+import NavBar from './components/NavBar'
 
 function App() {
 
   return (
     <>
-      <p className="text-4xl font-bold
-      font-signature">Hello</p>
+      <NavBar/>
     </>
   )
 }
