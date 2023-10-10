@@ -28,7 +28,12 @@ function NavBar() {
   return (
     <div className="flex justify-between items-center w-full px-4 h-20 text-white bg-black fixed">
       <div>
-        <h1 className="text-5xl font-mono ml-2">Paul</h1>
+        <h1
+          className="text-4xl font-mono ml-2"
+          style={{ fontFamily: "Rock Salt" }}
+        >
+          Paul
+        </h1>
       </div>
 
       <ul className="hidden md:flex">
@@ -48,7 +53,7 @@ function NavBar() {
 
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 text-gray-500"
+        className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
       >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
