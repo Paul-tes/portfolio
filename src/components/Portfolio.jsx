@@ -5,7 +5,6 @@ import RooMic from "../assets/portfolio/RooMic.png";
 import MathMagician from "../assets/portfolio/MathMagician.png";
 import CodeAcadmy from "../assets/portfolio/CodeAcadamy.png";
 import RestCountries from "../assets/portfolio/RestCountries.png";
-import BugiBugy from "../assets/portfolio/BugiBugy.png";
 import { Modal } from "./Modal";
 
 export const Portfolio = () => {

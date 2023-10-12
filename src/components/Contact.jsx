@@ -7,7 +7,7 @@ export const Contact = () => {
       className="w-full h-screen bg-gradient-to-b from-black to-gray-800 text-white"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
-        <div>
+        <div className="py-4 flex justify-center flex-col items-center">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact me
           </p>
@@ -18,20 +18,26 @@ export const Contact = () => {
           </p>
         </div>
         <div className="flex justify-center item-center">
-          <form action="" className="flex flex-col w-full md:w-1/2">
+          <form
+            action="https://formspree.io/f/xvonwply"
+            className="flex flex-col w-full md:w-1/2"
+          >
             <input
               type="text"
               name="name"
               placeholder="Your Name"
+              required
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <input
               type="email"
               name="email"
               placeholder="Email"
+              required
               className="p-2 my-4  bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <textarea
+              required
               name="message"
               rows="10"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"

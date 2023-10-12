@@ -1,5 +1,13 @@
 import React from "react";
+import postgres from "../assets/Postgres.png";
 import html from "../assets/html.png";
+import css from "../assets/css.png";
+import javascript from "../assets/javascript.png";
+import reactImage from "../assets/react.png";
+import github from "../assets/github.png";
+import tailwind from "../assets/tailwind.png";
+import ruby from "../assets/Ruby.png";
+import rails from "../assets/Rails.png";
 
 export const Experience = () => {
   const techs = [
@@ -10,40 +18,58 @@ export const Experience = () => {
       style: "shadow-orange-500",
     },
     {
-      id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
+      id: 2,
+      src: css,
+      title: "CSS",
+      style: "shadow-blue-500",
     },
     {
-      id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
+      id: 3,
+      src: javascript,
+      title: "JavaScript",
+      style: "shadow-yellow-500",
     },
     {
-      id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
+      id: 4,
+      src: reactImage,
+      title: "React",
+      style: "shadow-blue-600",
     },
     {
-      id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
+      id: 5,
+      src: tailwind,
+      title: "Tailwind",
+      style: "shadow-sky-400",
     },
     {
-      id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
+      id: 6,
+      src: github,
+      title: "GitHub",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 7,
+      src: postgres,
+      title: "Postgres",
+      style: "shadow-cyan-400",
+    },
+    {
+      id: 8,
+      src: ruby,
+      title: "Ruby",
+      style: "shadow-red-300",
+    },
+    {
+      id: 9,
+      src: rails,
+      title: "Rails",
+      style: "shadow-red-700",
     },
   ];
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="py-4 flex justify-center flex-col items-center">
