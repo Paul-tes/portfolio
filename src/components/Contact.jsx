@@ -1,0 +1,47 @@
+import React from "react";
+
+export const Contact = () => {
+  return (
+    <div
+      name="contact"
+      className="w-full h-screen bg-gradient-to-b from-black to-gray-800 text-white"
+    >
+      <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
+        <div>
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+            Contact me
+          </p>
+          <p className="py-6">
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it!
+          </p>
+        </div>
+        <div className="flex justify-center item-center">
+          <form action="" className="flex flex-col w-full md:w-1/2">
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              className="p-2 my-4  bg-transparent border-2 rounded-md text-white focus:outline-none"
+            />
+            <textarea
+              name="message"
+              rows="10"
+              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+            ></textarea>
+            <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
+              Get in touch
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  );
+};
