@@ -1,6 +1,8 @@
 import React from "react";
 import MyImag from "../assets/me.png";
 import { BiSolidRightArrow } from "react-icons/bi";
+import { Link } from "react-scroll";
+import { Portfolio } from "./Portfolio";
 
 function Home() {
   return (
@@ -14,25 +16,30 @@ function Home() {
             I&apos;m Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia et
-            voluptates adipisci ipsam, inventore magnam quaerat odio similique,
-            soluta commodi ea eos, tempora repellendus mollitia! Vitae dicta
-            tempore molestias id?
+            I’m a software developer! I can help you build a product , feature
+            or website Look through some of my work and experience! If you like
+            what you see and have a project you need coded, don’t hesitate to
+            contact me.
           </p>
           <div>
-            <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md gap-2 bg-gradient-to-t from-cyan-500 to-blue-500 cursor-pointer">
+            <Link
+              to="portfolio"
+              smooth
+              duration={500}
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md gap-2 bg-gradient-to-t from-cyan-500 to-blue-500 cursor-pointer"
+            >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
                 <BiSolidRightArrow className="ml-1" />
               </span>
-            </button>
+            </Link>
           </div>
         </div>
         <div>
           <img
             src={MyImag}
             alt="My profile photo"
-            className="h-auto max-profile-width transition-all duration-300 rounded-lg cursor-pointer filter grayscale hover:grayscale-0"
+            className="h-auto mx-auto max-profile-width rounded-lg transition-all duration-300 filter cursor-pointer hover:grayscale z-0"
           />
         </div>
       </div>

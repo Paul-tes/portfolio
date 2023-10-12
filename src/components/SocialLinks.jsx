@@ -12,7 +12,7 @@ function SocialLinks() {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "http//:linkdin.com",
+      href: "https://www.linkedin.com/in/paul-tesfaye/",
       style: "rounded-ty-md",
     },
     {
@@ -22,7 +22,7 @@ function SocialLinks() {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "http//:github.com",
+      href: "https://github.com/Paul-tes",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ function SocialLinks() {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "http//:gmail.com",
+      href: "paulasca8462@gmail.com",
     },
     {
       id: 4,
@@ -40,7 +40,7 @@ function SocialLinks() {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "http//:linkdin.com",
+      href: "https://docs.google.com/document/d/1hlXLrpvJzd5150Iq1Er195JAG9wdf_56tpHLxld7Dus/edit?usp=sharing",
       style: "rounded-br-md",
     },
   ];
