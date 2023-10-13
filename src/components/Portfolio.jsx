@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import MovieShow from "../assets/portfolio/MovieShow.png";
 import RooMic from "../assets/portfolio/RooMic.png";
 import MathMagician from "../assets/portfolio/MathMagician.png";
 import CodeAcadmy from "../assets/portfolio/CodeAcadamy.png";
 import RestCountries from "../assets/portfolio/RestCountries.png";
+import StockPricePridiction from "../assets/portfolio/StockPricePridiction.png";
 import { Modal } from "./Modal";
 
 export const Portfolio = () => {
@@ -57,7 +57,7 @@ export const Portfolio = () => {
     {
       id: 6,
       title: "Stock-Market-Analysis-using-python",
-      src: reactWeather,
+      src: StockPricePridiction,
       description:
         "Stock Market prediction using Decision Tree Regressor , classifier and linear Regression. Built with python, Decision Tree classifier Model in Jupyter-lab.",
       demo: "https://github.com/Paul-tes/Stock-Market-Analysis-using-python/blob/main/StockPricePridiction%26Classification.ipynb",
