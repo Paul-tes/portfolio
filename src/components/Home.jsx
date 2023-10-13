@@ -10,10 +10,10 @@ function Home() {
       name="home"
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-around h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-5xl mt-48 sm:mt-0 sm:text-7xl font-bold text-white">
-            I&apos;m Full Stack Developer
+            I&apos;m Paul. <br /> Glad to see you!
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             I’m a software developer! I can help you build a product , feature
@@ -30,7 +30,7 @@ function Home() {
             >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
-                <BiSolidRightArrow className="ml-1" />
+                <BiSolidRightArrow className="ml-1 animate-bounce" />
               </span>
             </Link>
           </div>

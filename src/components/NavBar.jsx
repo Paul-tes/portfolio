@@ -30,7 +30,7 @@ function NavBar() {
     <div className="flex justify-between items-center w-full px-4 h-20 text-white bg-black fixed">
       <div>
         <h1
-          className="text-4xl font-mono ml-2"
+          className="text-4xl font-mono ml-2 animate-pulse"
           style={{ fontFamily: "Rock Salt" }}
         >
           Paul
