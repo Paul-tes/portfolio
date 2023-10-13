@@ -19,6 +19,7 @@ export const Contact = () => {
         </div>
         <div className="flex justify-center item-center">
           <form
+            method="post"
             action="https://formspree.io/f/xvonwply"
             className="flex flex-col w-full md:w-1/2"
           >
