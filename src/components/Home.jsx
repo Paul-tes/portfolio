@@ -16,10 +16,10 @@ function Home() {
             I&apos;m Paul. <br /> Glad to see you!
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I’m a software developer! I can help you build a product , feature
-            or website Look through some of my work and experience! If you like
-            what you see and have a project you need coded, don’t hesitate to
-            contact me.
+            I&apos;m a dynamic software developer with the skills to transform
+            your ideas into exceptional digital solutions. Whether you need a
+            groundbreaking product, a game-changing feature, or a captivating
+            website, I&apos;m here to make it happen.
           </p>
           <div>
             <Link
